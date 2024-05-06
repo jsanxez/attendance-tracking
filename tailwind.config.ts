@@ -8,6 +8,9 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        symbols: ['var(--symbols)'],
+      },
       colors: {
         "on-surface-variant": "#44474E",
         "secondary-container": "#FFE089",

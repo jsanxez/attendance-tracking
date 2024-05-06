@@ -8,6 +8,11 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      colors: {
+        "on-surface-variant": "#44474E",
+        "secondary-container": "#FFE089",
+        "surface-container-low": "#F3F3FA",
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":

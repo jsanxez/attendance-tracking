@@ -2,10 +2,11 @@
 
 import Link from "next/link"
 import { usePathname } from "next/navigation"
+import { symbols } from '@/app/ui/fonts'
 
 const links = [
-  { name: 'Dashboard', href: '/dashboard'},
-  { name: 'Attendance', href: '/dashboard/attendance'},
+  { name: 'Dashboard', href: '/dashboard', icon: 'dashboard'},
+  { name: 'Attendance', href: '/dashboard/attendance', icon: 'calendar_month'},
 ]
 
 export default function NavigationDrawer() {
@@ -18,13 +19,15 @@ export default function NavigationDrawer() {
 
 function NavItem({ link }) {
   const pathname = usePathname()
-  const isActive = pathname == link.href && 'bg-secondary-container'
+  const activeItem = pathname == link.href && 'bg-secondary-container icon-filled'
+
   return (
     <Link
       href={link.href}
-      className={`text-sm font-medium text-on-surface-variant ${isActive} block py-4 pl-4 pr-6 rounded-full`}
+      className={`${activeItem} text-sm font-medium text-on-surface-variant flex gap-3 items-center py-4 pl-4 pr-6 rounded-full`}
     >
-    {link.name}
+      <span className={`${symbols.variable} font-symbols material-symbols`}>{link.icon}</span>
+      {link.name}
     </Link>
   )
 }

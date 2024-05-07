@@ -12,9 +12,14 @@ const config: Config = {
         symbols: ['var(--symbols)'],
       },
       colors: {
+        "primary-container": "#D7E3FF",
+        "on-primary-container": "#001B3E",
+        "on-surface": "#191C20",
+        "on-surface-08": "rgba(73, 69, 79, .08)",
         "on-surface-variant": "#44474E",
         "secondary-container": "#FFE089",
         "surface-container-low": "#F3F3FA",
+        "surface-container-high": "#E7E8EE",
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",

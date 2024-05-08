@@ -14,11 +14,16 @@ const config: Config = {
       colors: {
         "primary-container": "#D7E3FF",
         "on-primary-container": "#001B3E",
+        "error-container": "#FFDAD6",
+        "on-error-container": "#410002",
+        "surface": "#F9F9FF",
         "on-surface": "#191C20",
         "on-surface-08": "rgba(73, 69, 79, .08)",
+        "surface-variant": "#E0E2EC",
         "on-surface-variant": "#44474E",
         "secondary-container": "#FFE089",
         "surface-container-low": "#F3F3FA",
+        "surface-container": "#EDEDF4",
         "surface-container-high": "#E7E8EE",
       },
       backgroundImage: {

@@ -1,5 +1,16 @@
+import { Overview, OverviewItem } from '../ui/overview'
+
 export default function Page() {
     return(
-        <h1>Dashboard content</h1>
+        <div className='inline-flex gap-8 justify-between'>
+            <Overview title="Asistencia total">
+                <OverviewItem iconName="person_check" label="Asistencias" counter="329" />
+                <OverviewItem iconName="person_cancel" label="Ausencias" counter="03" isError />
+            </Overview>
+            <Overview title="Puntualidad promedio">
+                <OverviewItem iconName="pace" label="Hora de ingreso" counter="7:45 AM" />
+                <OverviewItem iconName="history_toggle_off" label="Ingreso fuera de la hora" counter="15 min" isError />
+            </Overview>
+        </div>
     )
 }

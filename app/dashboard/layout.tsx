@@ -4,12 +4,12 @@ import Breadcrumbs from '@/app/ui/breadcrumbs'
 
 export default function Layout({ children }: { children: React.ReactNode }) {
     return (
-        <div className="grid grid-cols-dashboard gap-20">
+        <div className="grid grid-cols-dashboard gap-8 bg-surface-container">
             <NavDrawer />
             <div>
                 <Header />
                 <Breadcrumbs className='mt-4 text-sm' />
-                <main className="bg-blue-200">{children}</main>
+                <main className="mt-8">{children}</main>
             </div>
         </div>
     )

@@ -19,6 +19,7 @@ const config: Config = {
         "surface": "#F9F9FF",
         "on-surface": "#191C20",
         "on-surface-08": "rgba(73, 69, 79, .08)",
+        "on-surface-12": "rgba(73, 69, 79, .12)",
         "surface-variant": "#E0E2EC",
         "on-surface-variant": "#44474E",
         "secondary-container": "#FFE089",

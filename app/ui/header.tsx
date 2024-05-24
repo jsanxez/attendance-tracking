@@ -17,7 +17,7 @@ export default function Header() {
 
  function Monogram( { initial }: {initial: string}) {
     return (
-        <button className="text-base font-medium w-10 h-10 m-1 mr-0 text-on-primary-contanier bg-primary-container rounded-full">
+        <button className="text-base font-medium text-on-surface w-10 h-10 m-1 mr-0 text-on-primary-contanier bg-primary-container rounded-full">
             {initial}
         </button>
     )

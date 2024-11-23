@@ -1,6 +1,6 @@
-import NavDrawer from '@/app/ui/navigation/drawer'
-import Header from '@/app/ui/header'
-import Breadcrumbs from '@/app/ui/breadcrumbs'
+import NavDrawer from '@/src/ui/navigation/drawer'
+import Header from '@/src/ui/header'
+import Breadcrumbs from '@/src/ui/breadcrumbs'
 
 export default function Layout({ children }: { children: React.ReactNode }) {
     return (

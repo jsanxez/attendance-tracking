@@ -1,4 +1,4 @@
-import { symbols } from '@/app/ui/fonts'
+import { symbols } from '@/src/ui/fonts'
 import IconButton from './atoms/iconbutton'
 export default function Header() {
     return (

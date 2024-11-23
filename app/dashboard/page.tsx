@@ -1,5 +1,5 @@
-import { Overview, OverviewItem } from '../ui/overview'
-import List from '../ui/list'
+import { Overview, OverviewItem } from '../../src/ui/overview'
+import List from '../../src/ui/list'
 
 export default function Page() {
     return(

@@ -2,7 +2,7 @@
 
 import Link from "next/link"
 import { usePathname } from "next/navigation"
-import { symbols } from '@/app/ui/fonts'
+import { symbols } from '@/src/ui/fonts'
 
 const links = [
   { name: 'Dashboard', href: '/dashboard', icon: 'dashboard'},
